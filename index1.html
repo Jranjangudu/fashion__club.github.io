@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <title>Ecommerce</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <header class="header">
+                <div class="logo">
+                    <h1><span>FASHION</span> CLUB</h1>
+                </div>
+               
+                <nav class="navbar">
+                    <ul id="MenuItems">
+                        <li class="active"><a href="index1.html">Home</a></li>
+                        <li><a href="#product">products</a></li>
+                        <li><a href="#contact">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#service">Service</a></li>
+                    </ul>
+                </nav>
+                <img src="cart.png" width="30px" height="30px">
+                <img src="logo-white.png" class="menu-icon" onclick="menutoggle()">
+            </header>
+        </div>
+        <div class="row">
+
+            <div class="col">
+                <h2>INDIAN NO.1 <br><span>FASHION</span> CLUB</h2>
+                <p> Lorem ipsum dolor, sit amet <br> consectetur
+                    adipisicing elit. Eligendi ipsa </p>
+                <a href="#" class="btn">Explore Now &#8594;</a>
+            </div>
+
+            <div class="col">
+                <img src="image1.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-----------feature categories------------------>
+
+    <div class="categories">
+        <div class="small-container" >
+            <div class="row">
+                <div class="col-3">
+                    <img src="category-1.jpg">
+
+                </div>
+                <div class="col-3">
+                    <img src='category-2.jpg'>
+                
+                </div>
+                <div class="col-3">
+                    <img src="category-3.jpg">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-----------feature products------------------>
+
+    <div class="small-container" id="product">
+        <h2 class="title"> Feature products</h2>
+        <div class="row" >
+            <div class="col-4">
+                <img src="product-2.jpg" >
+
+
+                <h3>HRX Gray Trackpants</h3>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <br>
+                <i class="fas fa-rupee-sign" id="money"></i>400
+            </div>
+            <div class="col-4">
+                <img src="product-1.jpg">
+                <h3>Red printed T-shirt</h3>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <br>
+                <i class="fas fa-rupee-sign" id="money"></i>550
+            </div>
+            <div class="col-4">
+                <img src="product-6.jpg">
+                <h3>HRX Set of 3 Socks</h3>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <br>
+                <i class="fas fa-rupee-sign" id="money"></i>250
+            </div>
+            <div class="col-4">
+                <img src="product-3.jpg">
+                <h3>Blue printed T-shirt</h3>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="far fa-star"></i> <br>
+                <i class="fas fa-rupee-sign " id="money"></i>350
+            </div>
+        </div>
+
+        <!-----------latest products------------------>
+
+        <h2 class="title"> Latest products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="product-7.jpg">
+                <h3>Black Fossil Watch</h3>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <br>
+                <i class="fas fa-rupee-sign" id="money"></i>590
+            </div>
+            <div class="col-4">
+                <img src="product-8.jpg">
+                <h3>Black Sports Watch</h3>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="far fa-star"></i> <br>
+                <i class="fas fa-rupee-sign " id="money"></i>750
+            </div>
+            <div class="col-4">
+                <img src="product-10.jpg">
+                <h3>Gray Niko Shoos</h3>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <br>
+                <i class="fas fa-rupee-sign" id="money"></i>860
+            </div>
+            <div class="col-4">
+                <img src="product-11.jpg">
+                <h3>HRX Black Trackpants</h3>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <br>
+                <i class="fas fa-rupee-sign" id="money"></i>690
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-4">
+                <img src="product-12.jpg">
+                <h3>Black Fossil Watch</h3>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <br>
+                <i class="fas fa-rupee-sign" id="money"></i>590
+            </div>
+            <div class="col-4">
+                <img src="girlwith-jeans.jpg">
+                <h3>Black Sports Watch</h3>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="far fa-star"></i> <br>
+                <i class="fas fa-rupee-sign " id="money"></i>750
+            </div>
+            <div class="col-4">
+                <img src="DSLR.jpg">
+                <h3>Gray Niko Shoos</h3>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <br>
+                <i class="fas fa-rupee-sign" id="money"></i>860
+            </div>
+            <div class="col-4">
+                <img src="laptop.jpg">
+                <h3>HRX Black Trackpants</h3>
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                    class="fas fa-star"></i><i class="fas fa-star-half-alt"></i> <br>
+                <i class="fas fa-rupee-sign" id="money"></i>690
+            </div>
+        </div>
+    </div>
+
+    <!--------------Offer------------------->
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col">
+                    <img src="exclusive.png" class="offer-img">
+                </div>
+                <div class="col">
+                    <p> Exclusive Avaliable on Fashion club!</p>
+                    <h1>Smart Watch</h1>
+                    <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae </small> <br>
+                    <a href="#" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------Service section---------------->
+    <div class="service" id="service">
+        <h1>Services</h1>
+    </div>
+    <div class="customer-container">
+        <div class="row-cust">
+            <div class="col3">
+                <i class="fas fa-quote-right fa-2x ip" id="color"></i>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque perspiciatis mollitia consequunt
+                    quod porro voluptates,</p>
+                <img src="social.jpeg" class="customer"> <br>
+                <a href="#" class="btn-1">More &#10153;</a>
+            </div>
+
+            <div class="col3">
+                <i class="fas fa-quote-right fa-2x ip" id="color"></i>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque perspiciatis mollitia consequunt
+                    quod porro voluptates,</p>
+                <img src="services.jpg" class="customer"><br>
+                <a href="#" class="btn-1">More &#10153;</a>
+            </div>
+
+            <div class="col3">
+                <i class="fas fa-quote-right fa-2x ip" id="color"></i>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque perspiciatis mollitia consequunt
+                    quod porro voluptates,</p>
+                <img src="customer.jpg" class="customer"><br>
+                <a href="#" class="btn-1">More &#10153; </a>
+            </div>
+
+        </div>
+
+    </div>
+    <!------top product based companies in india--------->
+    <div class="info">
+        <h2>Top product based companies in india</h2>
+    </div>
+    <div class='compani-logo'>
+        <div class="com">
+            <i class="fab fa-google fa-3x ip"></i>
+            <h1>Google</h1>
+        </div>
+        <div class="com">
+            <i class="fab fa-amazon fa-3x ip"></i>
+            <h1>Amazon</h1>
+        </div>
+        <div class="com">
+            <i class="fab fa-microsoft fa-3x ip"></i>
+            <h1>Microsoft</h1>
+        </div>
+        <div class="com">
+            <i class="fab fa-paypal fa-3x ip"></i>
+            <h1>Paypal</h1>
+        </div>
+        <div class="com">
+            <i class="fab fa-apple fa-3x ip"></i>
+            <h1>Apple</h1>
+        </div>
+        <div class="com">
+            <i class="fab fa-adobe fa-3x ip"></i>
+            <h1>Adobe</h1>
+        </div>
+    </div>
+
+
+    <footer class="footer" id="contact">
+
+        <div class="container">
+            <div class="row">
+            <div class="col4">
+                <h3>Download Our App</h3>
+                <p>Download app for android,Mac and Windows </p>
+                <img src="menu.png" width="100px">
+                <img src="app-store.png" width="100px">
+            </div>
+            <div class="col4">
+                <div class="logo">
+                <h1><span>FASHION</span> CLUB</h1>
+            </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem deleniti laborum veritatis tempora
+                </p>
+            </div>
+            <div class="col4">
+                <h4>useful links</h4>
+                <p>www.google.com<br>
+                    www.youtube.com <br>
+                    www.instagram.com
+                </p>
+            </div>
+            <div class="col4">
+                <h3>Follow Me</h3>
+                <p>Facebook <br>
+                    instagram <br>
+                    twitter <br>
+                    youtube</p>
+            </div>
+        </div>
+        </div>
+
+        <p>Copyright &copy;2020 || Desigining by <a href="#">Mr.gudu</a></p>
+
+    </footer>]
+    <!-------------js for toggle menu--------------->
+    <script>
+        let MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight =="0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
